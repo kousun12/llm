@@ -36,6 +36,7 @@ setup(
         llm=llm.cli:cli
     """,
     install_requires=[
+        "asyncio",
         "click",
         "openai>=1.0",
         "click-default-group>=1.2.3",
